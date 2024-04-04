@@ -87,6 +87,7 @@ export class AppComponent {
         if (!result) {
           return;
         }
+        //djignj
         
         this.store.collection('todo').add(result.task)
       });
